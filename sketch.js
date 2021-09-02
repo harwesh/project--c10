@@ -11,7 +11,7 @@ function setup(){
   sea = createSprite(300,180,200,20)
   sea.addImage("sea",seaImage);
 
-  ship = createSprite(150,100,100,30);
+  ship = createSprite(150,300,100,30);
   ship.addAnimation("moving", ship_moving);
   edges = createEdgeSprites();
   
